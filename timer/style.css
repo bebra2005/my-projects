@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;   
+}
+
+.count {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(198, 198, 226);
+    background-color: rgb(63, 63, 153);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.end {
+    color: chocolate;
+}
